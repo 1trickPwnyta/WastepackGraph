@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+  <HistoryAutoRecorderGroupDef>
+    <defName>Wastepacks</defName>
+    <label>wastepacks</label>
+    <historyAutoRecorderDefs>
+      <li>Wastepacks</li>
+    </historyAutoRecorderDefs>
+  </HistoryAutoRecorderGroupDef>
+	
+</Defs>

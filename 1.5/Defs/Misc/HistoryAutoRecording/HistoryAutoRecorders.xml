@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+  <HistoryAutoRecorderDef>
+    <defName>Wastepacks</defName>
+    <label>wastepacks</label>
+    <graphColor>(1, 0, 0, 1)</graphColor>
+    <recordTicksFrequency>60000</recordTicksFrequency>
+    <workerClass>WastepackGraph.HistoryAutoRecorderWorker_Wastepacks</workerClass>
+    <valueFormat>{0}</valueFormat>
+  </HistoryAutoRecorderDef>
+	
+</Defs>
