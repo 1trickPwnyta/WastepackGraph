@@ -8,7 +8,7 @@ namespace WastepackGraph
     [HarmonyPatch(nameof(CompWasteProducer.ProduceWaste))]
     public static class Patch_CompWasteProducer
     {
-        public static void Postfix(int amountToMake)
+        public static void Prefix(int amountToMake)
         {
             Current.Game.GetComponent<GameComponent_WastepackGraph>().Notify_WastepacksGenerated(amountToMake);
         }
